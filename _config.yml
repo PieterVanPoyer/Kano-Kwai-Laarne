@@ -6,13 +6,13 @@ title: "Kano Kwai Laarne" # the name of your site, e.g. ACME Corp.
 sass:
   load_paths:
     - _sass
-    - assets/css
+    - assets
+    - node_modules
 
 # Files to exclude
-exclude:
-  - old-site-files
-  - node-modules
-  - package*
-  - Gemfile
-  - Gemfile.lock
-  - .gitignore
+exclude: []
+#  - old-site-files
+#  - package*
+#  - Gemfile
+#  - Gemfile.lock
+#  - .gitignore

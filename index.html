@@ -13,20 +13,35 @@ permalink: /index
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img class="fill img-fluid center-block" src={{ "assets/images/IMG_6960.jpg" | relative_url }} alt="First slide" />
+      <img class="fill img-fluid center-block" src={{
+      "assets/images/IMG_6960.jpg" | relative_url }} alt="First slide" />
     </div>
     <div class="carousel-item">
-      <img class="fill img-fluid center-block" src={{ "assets/images/IMG_7182.jpg" | relative_url }} alt="Second slide" />
+      <img class="fill img-fluid center-block" src={{
+      "assets/images/IMG_7182.jpg" | relative_url }} alt="Second slide" />
     </div>
     <div class="carousel-item">
-      <img class="fill img-fluid center-block" src={{ "assets/images/IMG_7069.jpg" | relative_url }} alt="Third slide" />
+      <img class="fill img-fluid center-block" src={{
+      "assets/images/IMG_7069.jpg" | relative_url }} alt="Third slide" />
     </div>
   </div>
-  <a class="left carousel-control" href="javascript:void(0)" role="button" data-slide="prev" data-target="#myCarousel">
+  <a
+    class="left carousel-control"
+    href="javascript:void(0)"
+    role="button"
+    data-slide="prev"
+    data-target="#myCarousel"
+  >
     <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
     <span class="sr-only">Vorige</span>
   </a>
-  <a class="right carousel-control" href="javascript:void(0)" role="button" data-slide="next" data-target="#myCarousel">
+  <a
+    class="right carousel-control"
+    href="javascript:void(0)"
+    role="button"
+    data-slide="next"
+    data-target="#myCarousel"
+  >
     <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
     <span class="sr-only">Volgende</span>
   </a>
@@ -35,7 +50,9 @@ permalink: /index
 <div class="container marketing">
   <div class="row featurette">
     <div class="col-lg-12 col-md-12 col-sm-12">
-      <h1 class="featurette-heading text-center title">Judoclub<br>Kano Kwai Laarne</h1>
+      <h1 class="featurette-heading text-center title">
+        Judoclub<br />Kano Kwai Laarne
+      </h1>
     </div>
   </div>
   <div class="row featurette">
@@ -43,21 +60,25 @@ permalink: /index
       <p class="lead">
         De trainingssessies vinden plaats in de gemeentelijke sporthal
         "Veldmeers",
-        <a href="https://www.google.com/maps/place/Leeweg+25,+9270+Laarne,+Belgi%C3%AB/@51.0293597,3.8730577,17z/data=!3m1!4b1!4m2!3m1!1s0x47c39e782a2a7f37:0x5eae70ea58743b67"
-        target="blank">Leeweg 25 te Laarne.</a>
+        <a
+          href="https://www.google.com/maps/place/Leeweg+25,+9270+Laarne,+Belgi%C3%AB/@51.0293597,3.8730577,17z/data=!3m1!4b1!4m2!3m1!1s0x47c39e782a2a7f37:0x5eae70ea58743b67"
+          target="blank"
+          >Leeweg 25 te Laarne.</a
+        >
       </p>
       <p class="lead">
-        Iedereen is welkom tijdens onze lessen. Meer info daaromtrent
-        vindt u op onze pagina
+        Iedereen is welkom tijdens onze lessen. Meer info daaromtrent vindt u op
+        onze pagina
         <a href="judo.html#judotraining">Trainingssessies judo</a>.
       </p>
       <p class="lead">
-        Onze vereniging staat open voor alle leeftijden tussen 6 en 99
-        jaar.
+        Onze vereniging staat open voor alle leeftijden tussen 6 en 99 jaar.
       </p>
     </div>
     <div class="col-lg-3 col-md-3 col-sm12">
-      <img class="featurette-image img-fluid center-block" src={{ "/assets/images/kkl-logo.png" | relative_url }} alt="Kano Kwai Laarne logo" />
+      <img class="featurette-image img-fluid center-block" src={{
+      "/assets/images/kkl-logo.png" | relative_url }} alt="Kano Kwai Laarne
+      logo" />
     </div>
   </div>
   <div class="row featurette">
@@ -68,9 +89,7 @@ permalink: /index
       </div>
     </div>
     <div class="row featurette">
-      {% for post in site.posts %}
-      {{ post }}
-      {% endfor %}
+      {% for post in site.posts %} {{ post }} {% endfor %}
     </div>
   </div>
 </div>
